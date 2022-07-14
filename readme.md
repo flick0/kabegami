@@ -1,3 +1,4 @@
+
 # welcome to my personal wallpaper dump
 
 ## previews
@@ -102,11 +103,10 @@
 ![japanese-pedestrian-street](./irl/japanese-pedestrian-street.jpg)<br>
 ![japanese-city-bike-sunset](./irl/japanese-city-bike-sunset.jpg)<br>
 ![flowr](./irl/flowr.png)<br>
-![image8](./irl/image8.png)<br>
 ![IMG_1884](./irl/IMG_1884.jpg)<br>
 ![k7epw1](./irl/k7epw1.jpg)<br>
-![wallpaper (1)](./irl/wallpaper (1).png)<br>
 ![XPModern](./irl/XPModern.jpg)<br>
+![mountains](./irl/mountains.png)<br>
 
 
 ## minimal
@@ -116,3 +116,5 @@
 ## tiles
 ![bananas-720](./tiles/bananas-720.jpg)<br>
 ![unknown](./tiles/unknown.png)<br>
+
+</details>
