@@ -10,22 +10,26 @@ pre = """
 
 ## previews
 <hr>
+<p align="center">
 """
 
 post = """
+</p>
 """
 with open("./readme.md", "w") as f:
-    f.write("")
+    f.write(pre)
+
+def image_embed(title,folder,img):
+    return f"""<img src="./{folder}/{img}" title="{title}"><br>\n"""
 
 with open("./readme.md", "a") as readme:
-    readme.write(pre)
     for folder in image_folders:
         readme.write("\n\n## " + folder + "\n")
         readme.write("<details><summary></summary>\n")
         for file in os.listdir(folder):
             if file.endswith(".jpg") or file.endswith(".png") or file.endswith(".gif") or file.endswith(".webp") or file.endswith(".webm"):
                 readme.write(
-                    "![{}](./{}/{})<br>\n".format(file[:-4], folder, file)
+                    image_embed(file[:-4], folder, file)
                 )
         readme.write("</details>\n")
     readme.write(post)
